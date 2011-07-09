@@ -17,10 +17,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="$(SolutionDir)\CommonAssemblyInfo.generated.cs">
+    <Compile Include="$(SolutionDir)\src\CommonAssemblyInfo.generated.cs">
       <Link>Properties\CommonAssemblyInfo.generated.cs</Link>
     </Compile>
-    <Compile Include="$(SolutionDir)\VersionAssemblyInfo.generated.cs">
+    <Compile Include="$(SolutionDir)\src\VersionAssemblyInfo.generated.cs">
       <Link>Properties\VersionAssemblyInfo.generated.cs</Link>
     </Compile>
   </ItemGroup>
