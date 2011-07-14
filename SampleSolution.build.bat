@@ -3,6 +3,9 @@ set FRAMEWORK_PATH=C:/WINDOWS/Microsoft.NET/Framework/v4.0.30319
 set PATH=%PATH%;%FRAMEWORK_PATH%;
 set TARGET_CONFIG=Release
 SET SOLUTION_FILE=SampleSolution.sln
+SET BUILD_DIR="%~dp0build\\"
+
+IF EXIST %BUILD_DIR% (RD %BUILD_DIR% /S /Q)
 
 IF "%build.number%"=="" (SET build.number=0.0.0.1)
 
