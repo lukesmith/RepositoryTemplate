@@ -1,4 +1,0 @@
-$projectName
-rename SampleSolution.sln $projectName.sln
-rename SampleSolution.build.bat $projectName.build.bat
-rename SampleSolution.package.bat $projectName.package.bat
