@@ -1,3 +1,5 @@
-rename 'SampleSolution.sln', "#{project_name}.sln"
-rename 'SampleSolution.build.bat', "#{project_name}.build.bat"
-rename 'SampleSolution.package.bat', "#{project_name}.package.bat"
+init do
+  rename 'SampleSolution.sln', "#{project_name}.sln"
+  rename 'SampleSolution.build.bat', "#{project_name}.build.bat"
+  rename 'SampleSolution.package.bat', "#{project_name}.package.bat"
+end
