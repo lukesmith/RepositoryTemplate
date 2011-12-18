@@ -5,5 +5,5 @@ init do
 end
 
 task :dosomething do
-  output :debug, "test"
+  output :debug, "#{project_dir}"
 end
